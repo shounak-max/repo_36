@@ -1,0 +1,38 @@
+{
+  "name": "task-manager-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vercel-ready Task Manager REST API built from the PRD.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "tsc --noEmit",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "migrate": "tsx sql/migrate.ts"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "next": "^15.3.3",
+    "pg": "^8.16.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "zod": "^3.25.56"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "@types/pg": "^8.15.4",
+    "@types/react": "19.2.15",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.1"
+  },
+  "overrides": {
+    "postcss": "^8.5.10"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

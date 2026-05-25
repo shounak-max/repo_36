@@ -1,0 +1,11 @@
+{
+  "regions": ["iad1"],
+  "functions": {
+    "app/api/**": {
+      "maxDuration": 10
+    },
+    "app/health/**": {
+      "maxDuration": 10
+    }
+  }
+}
