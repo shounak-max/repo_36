@@ -7,5 +7,11 @@
     "app/health/**": {
       "maxDuration": 10
     }
+  },
+  "env": {
+    "POSTGRES_URL": "@postgres_url",
+    "POSTGRES_URL_NON_POOLING": "@postgres_url_non_pooling",
+    "ADMIN_API_KEY": "@admin_api_key",
+    "NODE_ENV": "production"
   }
 }

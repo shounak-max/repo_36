@@ -1,0 +1,267 @@
+.container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  padding: 40px 20px;
+}
+
+.loginForm {
+  max-width: 400px;
+  margin: 100px auto;
+  background: #1e293b;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  border: 1px solid #334155;
+}
+
+.loginForm h1 {
+  margin-bottom: 10px;
+  text-align: center;
+  color: #f97316;
+  font-size: 32px;
+}
+
+.loginForm p {
+  text-align: center;
+  color: #cbd5e1;
+  margin-bottom: 30px;
+}
+
+.loginForm form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.loginForm input {
+  padding: 12px;
+  border: 1px solid #475569;
+  background: #0f172a;
+  color: #e2e8f0;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.loginForm input:focus {
+  outline: none;
+  border-color: #f97316;
+  box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.1);
+}
+
+.loginForm button {
+  padding: 12px;
+  background: #f97316;
+  color: #0f172a;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.loginForm button:hover {
+  background: #ea580c;
+}
+
+.backLink {
+  display: block;
+  text-align: center;
+  color: #f97316;
+  margin-top: 15px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.backLink:hover {
+  color: #ea580c;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header h1 {
+  color: #f97316;
+  font-size: 28px;
+}
+
+.headerActions {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.logoutBtn {
+  padding: 8px 16px;
+  background: #7f1d1d;
+  color: #fca5a5;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.logoutBtn:hover {
+  background: #991b1b;
+}
+
+.createSection,
+.infoBox,
+.envBox {
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 12px;
+  border: 1px solid #334155;
+  margin-bottom: 30px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.createSection h2,
+.infoBox h2,
+.envBox h2 {
+  color: #f97316;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.createSection form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.createSection input {
+  padding: 10px;
+  border: 1px solid #475569;
+  background: #0f172a;
+  color: #e2e8f0;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.createSection input:focus {
+  outline: none;
+  border-color: #f97316;
+  box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.1);
+}
+
+.createSection button {
+  padding: 10px;
+  background: #f97316;
+  color: #0f172a;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.createSection button:hover {
+  background: #ea580c;
+}
+
+.createSection button:disabled {
+  background: #64748b;
+  cursor: not-allowed;
+}
+
+.createdKeyBox {
+  background: #0f172a;
+  border: 2px solid #16a34a;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.createdKeyBox h3 {
+  color: #86efac;
+  margin-bottom: 10px;
+}
+
+.createdKeyBox p {
+  color: #cbd5e1;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.keyDisplay {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.keyDisplay code {
+  flex: 1;
+  background: #1e293b;
+  padding: 12px;
+  border-radius: 6px;
+  color: #86efac;
+  font-family: "Monaco", "Courier New", monospace;
+  font-size: 12px;
+  word-break: break-all;
+  border: 1px solid #334155;
+}
+
+.keyDisplay button {
+  padding: 8px 16px;
+  background: #16a34a;
+  color: #f0fdf4;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.keyDisplay button:hover {
+  background: #15803d;
+}
+
+.dismissBtn {
+  padding: 8px 16px;
+  background: #475569;
+  color: #e2e8f0;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+
+.dismissBtn:hover {
+  background: #64748b;
+}
+
+.infoBox p,
+.envBox p {
+  color: #cbd5e1;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.infoBox code,
+.envBox code {
+  background: #0f172a;
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: #fbbf24;
+  font-family: "Monaco", "Courier New", monospace;
+  font-size: 13px;
+}
+
+.infoBox pre,
+.envBox pre {
+  background: #0f172a;
+  padding: 15px;
+  border-radius: 6px;
+  border: 1px solid #334155;
+  overflow-x: auto;
+  margin-bottom: 15px;
+}
+
+.infoBox pre code,
+.envBox pre code {
+  color: #86efac;
+  padding: 0;
+  background: none;
+}
